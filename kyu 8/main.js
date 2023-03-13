@@ -2,7 +2,7 @@
 
 //Note: Empty arrays should return 0.
 
-//monday march 13 2023
+//monday march 13 2023 hi
 function findAverage(numbers) {
   if (numbers.length === 0) {
     return 0;
