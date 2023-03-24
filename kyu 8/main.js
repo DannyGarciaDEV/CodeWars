@@ -92,3 +92,14 @@ var rooms = {
 function maps(x){
   return x.map(n => n * 2);
 }
+
+//thursday 23 march 2023
+//dot notation
+//n javascript, Object is one of basic data types. Define an Object can use var obj=new Object() or var obj={}
+//You can define the object attributes during initialization, like this:
+//Give you a function animal, accept 1 parameter:obj like this:
+
+function animal(obj){
+
+ return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
+}
