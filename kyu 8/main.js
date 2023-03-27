@@ -127,3 +127,11 @@ function basicOp(operation, value1, value2)
       return value1/value2;
     }
   }
+
+  // monday march 27 2023
+  //Complete the solution so that it reverses the string passed into it.
+//'world'  =>  'dlrow'
+//'word'   =>  'drow'
+  function solution(str){
+    return str.split('').reverse().join(''); 
+  }
