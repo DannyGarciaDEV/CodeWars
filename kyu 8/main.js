@@ -135,3 +135,7 @@ function basicOp(operation, value1, value2)
   function solution(str){
     return str.split('').reverse().join(''); 
   }
+
+
+
+  
