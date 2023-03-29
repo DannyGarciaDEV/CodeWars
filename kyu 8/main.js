@@ -144,5 +144,14 @@ function removeChar(str){
   return str.slice(1, -1);
   
   };
+
+  //Wed March 29 2023
+  // makeuppercase
+  //make a function with call makeuppercase
+  // return that function into a method using dot notation
+
+  function makeUpperCase(str) {
+    return str.toUpperCase()
+    }
   
   
