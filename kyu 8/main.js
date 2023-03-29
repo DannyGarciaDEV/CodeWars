@@ -127,3 +127,31 @@ function basicOp(operation, value1, value2)
       return value1/value2;
     }
   }
+
+  // monday march 27 2023
+  //Complete the solution so that it reverses the string passed into it.
+//'world'  =>  'dlrow'
+//'word'   =>  'drow'
+  function solution(str){
+    return str.split('').reverse().join(''); 
+  }
+
+//tuesday march 28 2023
+//Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+
+function removeChar(str){
+  return str.slice(1, -1);
+  
+  };
+
+  //Wed March 29 2023
+  // makeuppercase
+  //make a function with call makeuppercase
+  // return that function into a method using dot notation
+
+  function makeUpperCase(str) {
+    return str.toUpperCase()
+    }
+  
+  
