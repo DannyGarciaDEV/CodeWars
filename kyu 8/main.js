@@ -153,5 +153,11 @@ function removeChar(str){
   function makeUpperCase(str) {
     return str.toUpperCase()
     }
+
   
-  
+  // Thu Mar 30 
+  //Write a function that removes the spaces from the string, then return the resultant string.
+  //Using split() and join() Method.
+function noSpace(x){
+return x.split(" ").join("")
+}
