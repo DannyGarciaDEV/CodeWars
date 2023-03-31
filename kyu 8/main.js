@@ -153,5 +153,19 @@ function removeChar(str){
   function makeUpperCase(str) {
     return str.toUpperCase()
     }
+
   
-  
+  // Thu Mar 30 
+  //Write a function that removes the spaces from the string, then return the resultant string.
+  //Using split() and join() Method.
+function noSpace(x){
+return x.split(" ").join("")
+}
+
+//Friday March 2023
+//You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+//Array can contain numbers or strings. X can be either.
+//Return true if the array contains the value, false if not.
+function check(a,x){
+  return a.includes(x);
+};
