@@ -162,10 +162,17 @@ function noSpace(x){
 return x.split(" ").join("")
 }
 
-//Friday March 2023
+//Friday 31  March 2023
 //You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 //Array can contain numbers or strings. X can be either.
 //Return true if the array contains the value, false if not.
 function check(a,x){
   return a.includes(x);
 };
+
+//saturday 1 march 2023
+//Implement a function which convert the given boolean value into its string representation.
+//create a method that makes a bolean to a string
+function booleanToString(b){
+ return b.toString();
+  }
