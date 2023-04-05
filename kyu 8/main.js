@@ -190,3 +190,17 @@ isDivisible(12,7,5)--> false because 12 is neither divisible by 7 */
   function isDivisible(n, x, y) {
   return !(n%x||n%y)
 }
+
+//tuesday april 4 2023
+//Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+// if statesments so every boleans returns to a string 
+// if bolean is true retur to yes
+
+function boolToWord( bool ){
+  if (bool) {
+    return 'Yes';
+  } else {
+    return 'No';
+  }
+}
