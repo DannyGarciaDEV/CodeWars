@@ -162,10 +162,45 @@ function noSpace(x){
 return x.split(" ").join("")
 }
 
-//Friday March 2023
+//Friday 31  March 2023
 //You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 //Array can contain numbers or strings. X can be either.
 //Return true if the array contains the value, false if not.
 function check(a,x){
   return a.includes(x);
 };
+
+//saturday 1 march 2023
+//Implement a function which convert the given boolean value into its string representation.
+//create a method that makes a bolean to a string
+function booleanToString(b){
+ return b.toString();
+  }
+
+
+  // monday april 3 2023 
+  /*Create a function isDivisible(n, x, y) that checks if a number n is divisible by two numbers x AND y. 
+All inputs are positive, non-zero digits.
+Example:
+isDivisible(3,1,3)--> true because 3 is divisible by 1 and 3
+isDivisible(12,2,6)--> true because 12 is divisible by 2 and 6
+isDivisible(100,5,3)--> false because 100 is not divisible by 3
+isDivisible(12,7,5)--> false because 12 is neither divisible by 7 */
+
+  function isDivisible(n, x, y) {
+  return !(n%x||n%y)
+}
+
+//tuesday april 4 2023
+//Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+// if statesments so every boleans returns to a string 
+// if bolean is true retur to yes
+
+function boolToWord( bool ){
+  if (bool) {
+    return 'Yes';
+  } else {
+    return 'No';
+  }
+}
