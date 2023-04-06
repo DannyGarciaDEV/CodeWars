@@ -204,3 +204,11 @@ function boolToWord( bool ){
     return 'No';
   }
 }
+
+//wed april 5 2023
+//Simple, given a string of words, return the length of the shortest word(s).
+//String will never be empty and you do not need to account for different data types.
+function findShort(s){
+return Math.min(...s.split(" ").map (s => s.length));
+}
+// return a math.min methon targeting the string and slip method to calculapte the lenght of the strings
