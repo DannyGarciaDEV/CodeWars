@@ -234,3 +234,18 @@ function stringToArray(string){
 return string.split(" ")
 
 }
+
+//mon april 10 2023
+//We need a function that can transform a string into a number. What ways of achieving this do you know?
+// example "1234" --> 1234
+//"605"  --> 605
+//"1405" --> 1405
+//"-7" --> -7
+//use a use a method to convert a string into a number 
+//parseInt()
+//return the method with fuction 
+
+const stringToNumber = function(str){
+ 
+  return parseInt(str);
+}
