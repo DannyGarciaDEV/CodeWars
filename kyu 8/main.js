@@ -256,3 +256,13 @@ const stringToNumber = function(str){
 function greet(name){
   return `Hello, ${name} how are you doing today?`;
 }
+
+//april 12
+//Messi goals function
+//Messi is a soccer player with goals in three leagues:
+//Complete the function to return his total number of goals in all three leagues.
+//5, 10, 2  -->  17
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  let total = (laLigaGoals + copaDelReyGoals + championsLeagueGoals)
+  return total
+}
