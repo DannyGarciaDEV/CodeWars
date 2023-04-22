@@ -333,5 +333,17 @@ function sixToast(num) {
   }
 }
 
+//april 21 2023 
+//This would convert a positive number to negative and ensure that an already negative number remains unchanged. For example, you can use this in the following way:
+//in this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
+
+
+
+function makeNegative(num) {
+
+return -Math.abs(num)
+}
+
 
  
