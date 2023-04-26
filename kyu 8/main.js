@@ -2,7 +2,7 @@
 
 //Note: Empty arrays should return 0.
 
-//monday march 13 2023
+//monday march 13 2023 hi
 function findAverage(numbers) {
   if (numbers.length === 0) {
     return 0;
@@ -346,4 +346,20 @@ return -Math.abs(num)
 }
 
 
- 
+ //april 25 
+ //This function should return an object, but it's not doing what's intended. What's wrong?
+
+
+ function mystery() {
+  var results =
+    {sanity: 'Hello'};
+  return
+    results;
+}
+
+//answer
+ function mystery() {
+  let results =
+    {sanity: 'Hello'};
+  return results;
+}
