@@ -49,3 +49,19 @@ class Dinglemouse{
 function remove(s){
   return  s.split('!').join('').filter('Hi!');
 }
+
+
+//april 27
+let greet = function(name) {
+  return `Hello ${name[0].toUpperCase()}${name.slice(1).toLowerCase()}!`;
+};
+  // Get the first letter of the input `name`, convert it to uppercase, and append it to the string "Hello ".
+ 
+
+  // Get the rest of the input `name` starting from the second letter, convert it to lowercase, and append it to the `greeting`.
+ 
+
+  // Append an exclamation mark to the end of the `greeting`.
+
+
+  // Return the resulting greeting string.
