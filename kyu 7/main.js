@@ -26,3 +26,26 @@ class Dinglemouse{
   }
   
 }
+
+//april 26 
+//Remove all exclamation marks from sentence but ensure a exclamation mark at the end
+ //of string. For a beginner kata, you can assume that the input data is always a non empty string, no need to verify it.
+//  remove("Hi!") === "Hi!"
+// remove("Hi!!!") === "Hi!"
+// remove("!Hi") === "Hi!"
+// remove("!Hi!") === "Hi!"
+// remove("Hi! Hi!") === "Hi Hi!"
+// remove("Hi") === "Hi!"
+
+
+//   // Join all the substrings in the array back into a single string.
+//   split('!')
+
+//   // Append an exclamation mark to the end of the array `sArray`.
+// push('!')
+
+//   // Join all the substrings in the array back into a single string.
+//   join('')
+function remove(s){
+  return  s.split('!').join('').filter('Hi!');
+}
