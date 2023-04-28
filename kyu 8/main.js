@@ -364,3 +364,10 @@ return -Math.abs(num)
   return results;
 }
 
+//28 april
+// First, the function multiplies the input value "mpg" by 1.609344 to convert miles to kilometers. This converts the units from mpg to kilometers per gallon (km/gallon).
+// Next, it divides the result of step 1 by 4.54609188 to convert gallons to liters. This converts the units from km/gallon to km/liter.
+// Finally, the function rounds the result of step 2 to 2 decimal places using the Math.round() function and returns the value.
+function converter (mpg) {
+  return Math.round(((mpg * 1.609344) / 4.54609188) * 100) / 100;
+}
