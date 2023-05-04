@@ -77,3 +77,15 @@ let greet = function(name) {
 function fireFight(s){
   return s.split("Fire").join('~~')
 }
+
+// may 3
+//
+//In this game, there are 21 sticks lying in a pile. Players take turns taking 1, 2, or 3 sticks. The last person to take a stick wins. For example:
+function makeMove(sticks) {
+  if (sticks === 21){
+    return 1;
+  } else {
+    return sticks % 4;
+  } 
+  
+}
