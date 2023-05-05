@@ -117,3 +117,12 @@ function add(arr) {
 function reverse(str) {
   return str.split('').reverse().join('')
 }
+
+
+//may 5 
+
+
+function solution(start, finish){
+  const diff =  finish - start 
+  return  Math.floor(diff / 3) + diff % 3
+}
