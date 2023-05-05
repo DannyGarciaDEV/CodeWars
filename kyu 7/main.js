@@ -120,8 +120,11 @@ function reverse(str) {
 
 
 //may 5 
-
-
+// diff represents the difference between finish and start,
+//  and floor is a function that rounds down to the nearest integer. The expression floor(difff / 3)
+//   computes the number of times the cat can jump three shelves, and the expression def % 3 computes the
+//  number of remaining jumps that the cat can make, either one or two shelves at a time.
+//hii
 function solution(start, finish){
   const diff =  finish - start 
   return  Math.floor(diff / 3) + diff % 3
