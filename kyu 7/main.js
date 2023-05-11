@@ -166,3 +166,10 @@ function getNames(data){
 
 
 }
+
+
+//may 10 
+function twiceAsOld(a, b) {
+  return Math.abs( a - b * 2)
+
+}
