@@ -13,11 +13,7 @@ function findAverage(numbers) {
   }
 }
 
-// tuesday march 14 2023
-// create a function which returns an RNA sequence from the given DNA sequence
-function DNAtoRNA(dna) {
-    return dna.replace(/T/g, "U");
-   }
+
 
 
 
@@ -29,18 +25,7 @@ function DNAtoRNA(dna) {
    
   }
 
-// array list with sheeps
-// make a function count and a four loop to call the action everytime until stops at 17
-//make a varible declaration to declare the number is equal 0
-//thursday 17 march
 
-function countSheeps(arrayOfSheep) {
-  let count = 0
-  for(let i = 0; i < arrayOfSheep.length; i++) {
-      if(arrayOfSheep[i]) count += 1
-  }
-  return count
-}
 
 // multiply a function
 //make the function return to call the multiplicstion everytime we call it
@@ -114,19 +99,7 @@ function animal(obj){
 }
 
 
-//friday 24 march 2023 
-function basicOp(operation, value1, value2)
-{
-  if (operation === '+') {
-      return value1 + value2;
-    } else if(operation === '-') {
-      return value1 - value2;
-    }  else if(operation === '*') {
-      return value1 * value2;
-    } else if(operation === '/'){
-      return value1/value2;
-    }
-  }
+
 
   // monday march 27 2023
   //Complete the solution so that it reverses the string passed into it.
