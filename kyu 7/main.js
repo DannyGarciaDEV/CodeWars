@@ -184,4 +184,47 @@ function twiceAsOld(a, b) {
 
 //may 11
 
+function check(a, x) {
+  for(let i = 0; i <= a.length; i++){
+    if( a[i] === x){
+      return true
+    }  
+  } 
+  return false
+}
 
+///Two to One
+function longest(s1, s2) {
+  const combined = s1 + s2;  // Combine the two strings
+  const sortedString = Array.from(new Set(combined)).sort().join('');  // Sort the combined string and remove duplicates
+  return sortedString;
+}
+
+// Example usage:
+const string1 = "xyaabbbccccdefww";
+const string2 = "xxxxyyyyabklmopq";
+const result = longest(string1, string2);
+console.log(result);
+
+// sum of a sequence
+// Your task is to write a function which returns the sum of a sequence of integers.
+
+// The sequence is defined by 3 non-negative values: begin, end, step.
+
+// If begin value is greater than the end, your function should return 0.
+//  If end is not the result of an integer number of steps, then don't add it to the sum. See the 4th example below.
+
+// Examples
+
+// 2,2,2 --> 2
+// 2,6,2 --> 12 (2 + 4 + 6)
+// 1,5,1 --> 15 (1 + 2 + 3 + 4 + 5)
+// 1,5,3  --> 5 (1 + 4)
+
+function sequenceSum(begin, end, step) {
+  let sum = 0
+  for (let i = begin; i <= end; i += step) {
+    sum += i
+  }
+  return sum
+}
