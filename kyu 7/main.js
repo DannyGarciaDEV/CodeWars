@@ -184,4 +184,24 @@ function twiceAsOld(a, b) {
 
 //may 11
 
+function check(a, x) {
+  for(let i = 0; i <= a.length; i++){
+    if( a[i] === x){
+      return true
+    }  
+  } 
+  return false
+}
 
+///Two to One
+function longest(s1, s2) {
+  const combined = s1 + s2;  // Combine the two strings
+  const sortedString = Array.from(new Set(combined)).sort().join('');  // Sort the combined string and remove duplicates
+  return sortedString;
+}
+
+// Example usage:
+const string1 = "xyaabbbccccdefww";
+const string2 = "xxxxyyyyabklmopq";
+const result = longest(string1, string2);
+console.log(result);
